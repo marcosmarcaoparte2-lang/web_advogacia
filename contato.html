@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Codificação de caracteres (acentos) -->
+    <meta charset="UTF-8">
+    <!-- Faz o site se adaptar ao celular -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Descrição que aparece no Google -->
+    <meta name="description" content="Grupo LM - Assessoria Jurídica. Seus direitos merecem ser defendidos.">
+    <!-- ícone da Guia -->
+    <link rel="icon" href="https://images.seeklogo.com/logo-png/25/1/simbolo-justica-logo-png_seeklogo-255296.png" type="image/png">
+    <title>Grupo LM | Assessoria Jurídica</title>
+    <!-- Fonte Raleway e ícones Font Awesome (antes do seu CSS) -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Seu CSS (sempre por último) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CABEÇALHO: logo + menu de navegação -->
+    <header class="topo">
+        <a href="index.html"><img src="img/grupo LM logo.png" alt="Logo Grupo LM"></a>
+        <!-- Menu de navegação -->
+        <nav>
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="quem-somos.html">Quem Somos</a>
+                <a href="areas-de-atuacao.html">Áreas de Atuação</a>
+                <a href="contato.html" class="ativo">Contato</a>
+                <a href="fale-conosco.html">Fale Conosco</a>
+            </ul>
+        </nav>
+    </header>
+
+      <!-- Acessibilidade -->
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+    new window.VLibras.Widget(
+    'https://vlibras.gov.br/app',
+    'https://vlibras.gov.br/config/default_logo.json',
+    'random',
+    'R'
+         );
+    </script>
+
+    <!-- CONTEÚDO PRINCIPAL DA PÁGINA -->
+    <main>
+        <!-- CONTATO -->
+        <section>
+            <div class="container">
+                <h2>Como Podemos Te Ajudar?</h2>
+                <p>Estamos prontos para entender sua necessidade e oferecer uma solução jurídica segura e estratégica. Fale conosco e dê o próximo passo com confiança.</p>
+                <!-- Cards de contato: localização, e-mail, telefone e WhatsApp -->
+                <div class="contato-lista">
+                    <div class="card-contato">
+                        <h3>Localização</h3>
+                        <p>Butantã - SP</p>
+                    </div>
+                    <a class="card-contato" href="mailto:contato@grupolm.com.br"><h3>E-mail</h3><p>contato@grupolm.com.br</p></a>
+                    <a class="card-contato" href="tel:+551122507754"><h3>Telefone</h3><p>(11) 2250-7754</p></a>
+                    <a class="card-contato" href="https://wa.me/551122507754" target="_blank" rel="noopener"><h3>WhatsApp</h3><p>(11) 2250-7754</p></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- BOTÃO DO WHATSAPP -->
+    <a class="whatsapp-flutuante" href="https://wa.me/551122507754?text=Olá! Gostaria de falar com um especialista do Grupo LM."
+       target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+
+      <!-- RODAPÉ -->
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <!-- Marca -->
+            <div class="rodape-col">
+                <img class="rodape-logo" src="img/grupo LM logo branca.png" alt="Logo Grupo LM">
+                <p>Mais que Advogados. Parceiros Estratégicos.</p>
+            </div>
+            <!-- Links rápidos -->
+            <div class="rodape-col">
+                <h3>Links Rápidos</h3>
+                <a href="index.html">Home</a>
+                <a href="quem-somos.html">Quem Somos</a>
+                <a href="areas-de-atuacao.html">Áreas de Atuação</a>
+                <a href="contato.html">Contato</a>
+                <a href="fale-conosco.html">Fale Conosco</a>
+            </div>
+            <!-- Escritório -->
+            <div class="rodape-col">
+                <h3>Escritório</h3>
+                <p class="rodape-item"><i class="fa-solid fa-location-dot"></i> Butantã - SP</p>
+                <a class="rodape-item" href="tel:+551122507754"><i class="fa-solid fa-phone"></i> (11) 2250-7754</a>
+                <a class="rodape-item" href="https://wa.me/551122507754" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> (11) 2250-7754</a>
+                <a class="rodape-item" href="mailto:contato@grupolm.com.br"><i class="fa-regular fa-envelope"></i> contato@grupolm.com.br</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
